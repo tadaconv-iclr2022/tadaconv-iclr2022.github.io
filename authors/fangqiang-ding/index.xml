@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fangqiang Ding | Huang Ziyuan</title>
+    <link>https://huang-ziyuan.github.io/authors/fangqiang-ding/</link>
+      <atom:link href="https://huang-ziyuan.github.io/authors/fangqiang-ding/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fangqiang Ding</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019, Ziyuan Huang</copyright><lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://huang-ziyuan.github.io/img/icon-192.png</url>
+      <title>Fangqiang Ding</title>
+      <link>https://huang-ziyuan.github.io/authors/fangqiang-ding/</link>
+    </image>
+    
+    <item>
+      <title>Augmented Memory for Correlation Filters in Real-Time UAV Tracking</title>
+      <link>https://huang-ziyuan.github.io/publication/icra-2020-amcf/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://huang-ziyuan.github.io/publication/icra-2020-amcf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

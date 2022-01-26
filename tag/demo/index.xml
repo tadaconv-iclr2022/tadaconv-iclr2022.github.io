@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Demo | TAdaConv-ICLR2022</title>
-    <link>tadaconv-iclr2022.github.io/tag/demo/</link>
-      <atom:link href="tadaconv-iclr2022.github.io/tag/demo/index.xml" rel="self" type="application/rss+xml" />
+    <title>Demo | Huang Ziyuan</title>
+    <link>/tag/demo/</link>
+      <atom:link href="/tag/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>@ 2022 TAdaConv</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>@ 2021 Huang Ziyuan</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/tadaconv-iclr2022.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_huf4aaa2ef5e122dd066bbee378b3f57ca_113000_512x512_fill_lanczos_center_2.png</url>
       <title>Demo</title>
-      <link>tadaconv-iclr2022.github.io/tag/demo/</link>
+      <link>/tag/demo/</link>
     </image>
     
     <item>
       <title>External Project</title>
-      <link>tadaconv-iclr2022.github.io/project/external-project/</link>
+      <link>/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>tadaconv-iclr2022.github.io/project/external-project/</guid>
+      <guid>/project/external-project/</guid>
       <description></description>
     </item>
     

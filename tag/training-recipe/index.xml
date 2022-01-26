@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Training Recipe | TAdaConv-ICLR2022</title>
-    <link>tadaconv-iclr2022.github.io/tag/training-recipe/</link>
-      <atom:link href="tadaconv-iclr2022.github.io/tag/training-recipe/index.xml" rel="self" type="application/rss+xml" />
+    <title>Training Recipe | Huang Ziyuan</title>
+    <link>/tag/training-recipe/</link>
+      <atom:link href="/tag/training-recipe/index.xml" rel="self" type="application/rss+xml" />
     <description>Training Recipe</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>@ 2022 TAdaConv</copyright><lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>@ 2021 Huang Ziyuan</copyright><lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/tadaconv-iclr2022.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_huf4aaa2ef5e122dd066bbee378b3f57ca_113000_512x512_fill_lanczos_center_2.png</url>
       <title>Training Recipe</title>
-      <link>tadaconv-iclr2022.github.io/tag/training-recipe/</link>
+      <link>/tag/training-recipe/</link>
     </image>
     
     <item>
       <title>Towards Training Stronger Video Vision Transformers for EPIC-KITCHENS-100 Action Recognition</title>
-      <link>tadaconv-iclr2022.github.io/publication/2021-cvprw-ek100vivit/</link>
+      <link>/publication/2021-cvprw-ek100vivit/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>tadaconv-iclr2022.github.io/publication/2021-cvprw-ek100vivit/</guid>
+      <guid>/publication/2021-cvprw-ek100vivit/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

@@ -2,260 +2,260 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>tadaconv-iclr2022.github.io/courses/example/python/</loc>
+    <loc>/courses/example/python/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/courses/example/visualization/</loc>
+    <loc>/courses/example/visualization/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/courses/example/stats/</loc>
+    <loc>/courses/example/stats/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/talk/example-talk/</loc>
+    <loc>/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/event/</loc>
+    <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/</loc>
+    <loc>/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication-type/1/</loc>
+    <loc>/publication-type/1/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/action-classification/</loc>
+    <loc>/tag/action-classification/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/action-detection/</loc>
+    <loc>/tag/action-detection/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/authors/</loc>
+    <loc>/authors/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/liang-pan/</loc>
+    <loc>/author/liang-pan/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/marcelo-h-ang-jr/</loc>
+    <loc>/author/marcelo-h-ang-jr/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/mingqian-tang/</loc>
+    <loc>/author/mingqian-tang/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication_types/</loc>
+    <loc>/publication_types/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication/</loc>
+    <loc>/publication/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/shiwei-zhang/</loc>
+    <loc>/author/shiwei-zhang/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication/2021-arxiv-tada/</loc>
+    <loc>/publication/2021-arxiv-tada/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/zhiwu-qing/</loc>
+    <loc>/author/zhiwu-qing/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/ziwei-liu/</loc>
+    <loc>/author/ziwei-liu/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/ziyuan-huang/</loc>
+    <loc>/author/ziyuan-huang/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/de-cheng/</loc>
+    <loc>/author/de-cheng/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/nannan-wang/</loc>
+    <loc>/author/nannan-wang/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication/2021-iccv-sscs/</loc>
+    <loc>/publication/2021-iccv-sscs/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/video-grounding-self-supervised-learning-video-representations/</loc>
+    <loc>/tag/video-grounding-self-supervised-learning-video-representations/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/xiaomeng-li/</loc>
+    <loc>/author/xiaomeng-li/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/xinbo-gao/</loc>
+    <loc>/author/xinbo-gao/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/xinpeng-ding/</loc>
+    <loc>/author/xinpeng-ding/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication-type/4/</loc>
+    <loc>/publication-type/4/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication/2021-cvprw-ek100tal/</loc>
+    <loc>/publication/2021-cvprw-ek100tal/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/changxin-gao/</loc>
+    <loc>/author/changxin-gao/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/jianwen-jiang/</loc>
+    <loc>/author/jianwen-jiang/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/marcelo-h.-ang-jr/</loc>
+    <loc>/author/marcelo-h.-ang-jr/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/nong-sang/</loc>
+    <loc>/author/nong-sang/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/temporal-action-localization/</loc>
+    <loc>/tag/temporal-action-localization/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication/2021-cvprw-ek100vivit/</loc>
+    <loc>/publication/2021-cvprw-ek100vivit/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/training-recipe/</loc>
+    <loc>/tag/training-recipe/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/video-transformers/</loc>
+    <loc>/tag/video-transformers/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/xiang-wang/</loc>
+    <loc>/author/xiang-wang/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/yutong-feng/</loc>
+    <loc>/author/yutong-feng/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/zhurong-xia/</loc>
+    <loc>/author/zhurong-xia/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/daniela-rus/</loc>
+    <loc>/author/daniela-rus/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/hongliang-guo/</loc>
+    <loc>/author/hongliang-guo/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/lyuyu-shen/</loc>
+    <loc>/author/lyuyu-shen/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/multi-scale-feature-aggregation/</loc>
+    <loc>/tag/multi-scale-feature-aggregation/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication/2021-ral-rsp/</loc>
+    <loc>/publication/2021-ral-rsp/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/relation-opration/</loc>
+    <loc>/tag/relation-opration/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/rong-jin/</loc>
+    <loc>/author/rong-jin/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/self-supervised-learning-video-representations-motion-learning/</loc>
+    <loc>/tag/self-supervised-learning-video-representations-motion-learning/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication/2021-cvpr-mosi/</loc>
+    <loc>/publication/2021-cvpr-mosi/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/semantic-segmentation/</loc>
+    <loc>/tag/semantic-segmentation/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/yechao-bai/</loc>
+    <loc>/author/yechao-bai/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/courses/</loc>
+    <loc>/courses/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/courses/example/</loc>
+    <loc>/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/academic/</loc>
+    <loc>/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/admin/</loc>
+    <loc>/author/admin/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/category/demo/</loc>
+    <loc>/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/post/getting-started/</loc>
+    <loc>/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <loc>/tag/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <loc>/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication/2020-cvpr-autotrack/</loc>
+    <loc>/publication/2020-cvpr-autotrack/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/changhong-fu/</loc>
+    <loc>/author/changhong-fu/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/fangqiang-ding/</loc>
+    <loc>/author/fangqiang-ding/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/geng-lu/</loc>
+    <loc>/author/geng-lu/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/spatio-temporal-regularization/</loc>
+    <loc>/tag/spatio-temporal-regularization/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/visual-object-tracking/</loc>
+    <loc>/tag/visual-object-tracking/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/yiming-li/</loc>
+    <loc>/author/yiming-li/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/aberrance-suppression/</loc>
+    <loc>/tag/aberrance-suppression/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/fuling-lin/</loc>
+    <loc>/author/fuling-lin/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/publication/2019-iccv-arcf/</loc>
+    <loc>/publication/2019-iccv-arcf/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/peng-lu/</loc>
+    <loc>/author/peng-lu/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/unmanned-aerial-vehicles/</loc>
+    <loc>/tag/unmanned-aerial-vehicles/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/post/writing-technical-content/</loc>
+    <loc>/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/post/jupyter/</loc>
+    <loc>/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/slides/</loc>
+    <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/slides/example/</loc>
+    <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/deep-learning/</loc>
+    <loc>/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/tag/demo/</loc>
+    <loc>/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/project/external-project/</loc>
+    <loc>/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/project/internal-project/</loc>
+    <loc>/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/admin/</loc>
+    <loc>/admin/</loc>
   </url><url>
-    <loc>tadaconv-iclr2022.github.io/author/huang-ziyuan/</loc>
+    <loc>/author/huang-ziyuan/</loc>
   </url>
 </urlset>

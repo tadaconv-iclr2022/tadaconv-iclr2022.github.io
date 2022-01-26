@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yinqiang Zhang | Huang Ziyuan</title>
+    <link>https://huang-ziyuan.github.io/authors/yinqiang-zhang/</link>
+      <atom:link href="https://huang-ziyuan.github.io/authors/yinqiang-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yinqiang Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019, Ziyuan Huang</copyright><lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://huang-ziyuan.github.io/img/icon-192.png</url>
+      <title>Yinqiang Zhang</title>
+      <link>https://huang-ziyuan.github.io/authors/yinqiang-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Part-Based Background-Aware Tracking for UAV With Convolutional Features</title>
+      <link>https://huang-ziyuan.github.io/publication/ieee-access-2019-pbbat/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://huang-ziyuan.github.io/publication/ieee-access-2019-pbbat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
