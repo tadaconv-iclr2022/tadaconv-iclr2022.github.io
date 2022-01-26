@@ -1,0 +1,979 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Huang Ziyuan" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Ph.D. candidate" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="tadaconv-iclr2022.github.io/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#6AA0A4" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/tadaconv-iclr2022.github.io/css/wowchemy.7de602e33f84217c520dbf10068cdbe6.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+    <link rel="alternate" href="tadaconv-iclr2022.github.io/index.xml" type="application/rss+xml" title="TAdaConv-ICLR2022" />
+  
+
+  
+    <link rel="manifest" href="/tadaconv-iclr2022.github.io/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/tadaconv-iclr2022.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/tadaconv-iclr2022.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="tadaconv-iclr2022.github.io/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="TAdaConv-ICLR2022" />
+  <meta property="og:url" content="tadaconv-iclr2022.github.io/" />
+  <meta property="og:title" content="TAdaConv-ICLR2022" />
+  <meta property="og:description" content="Ph.D. candidate" /><meta property="og:image" content="/tadaconv-iclr2022.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="/tadaconv-iclr2022.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "tadaconv-iclr2022.github.io?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "tadaconv-iclr2022.github.io"
+}
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>TAdaConv-ICLR2022</title>
+</head>
+
+
+<body id="top" data-spy="scroll"  data-target="#navbar-main" class="page-wrapper   no-navbar"  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/tadaconv-iclr2022.github.io/js/wowchemy-init.min.c2ae95842e5b33a787c7b8c567e989a4.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="tadaconv" class="home-section wg-blank  " style="padding: 20px 100px 20px 100px;" >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">TAda! Temporally-Adaptive Convolutions for Video Understanding</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <center><a href=https://huang-ziyuan.github.io>Ziyuan Huang</a><sup>1</sup>, &nbsp <a href=https://scholar.google.com/citations?user=ZO3OQ-8AAAAJ&hl=zh-CN>Shiwei Zhang</a><sup>2,*</sup>, &nbsp <a href=https://scholar.google.com/citations?user=lSDISOcAAAAJ&hl=zh-CN&authuser=1>Liang Pan</a><sup>3</sup>, &nbsp <a href=https://scholar.google.com/citations?user=q9refl4AAAAJ&hl=zh-CN&authuser=1>Zhiwu Qing</a><sup>2</sup>, </center>
+<center>Mingqian Tang<sup>2</sup>, &nbsp <a href=https://liuziwei7.github.io>Ziwei Liu</a><sup>3</sup>, &nbsp <a href=https://scholar.google.com/citations?user=dMogb2EAAAAJ&hl=zh-CN&authuser=1>Marcelo H. Ang Jr</a><sup>1,*</sup></center>
+<br>
+<center>1 <a href=https://arc.nus.edu.sg>ARC, National University of Singapore</a> &nbsp &nbsp 2 <a href=https://damo.alibaba.com/?lang=en>DAMO Academy, Alibaba Group</a> &nbsp &nbsp 3 <a href=https://www.ntu.edu.sg>S-Lab, National Technological University</a></center> 
+<center>
+<b>Official pytorch implementation (for academia)</b>
+&nbsp <font size=4>
+  <i class="fab fa-github  pr-1 fa-fw"></i></font> <a href=https://github.com/alibaba-mmai-research/pytorch-video-understanding><b>pytorch-video-understanding</b></a> &nbsp 
+</center> 
+<center> 
+<b>More from DAMO Academy (for industry)</b>
+&nbsp <font size=4>
+  <i class="fab fa-github  pr-1 fa-fw"></i></font> <a href=https://github.com/alibaba/EssentialMC2><b>EssentialMC2</b></a>
+</center> 
+<center>
+Accepted to <b>ICLR 2022</b>
+&nbsp 
+  <i class="fas fa-paperclip  pr-1 fa-fw"></i>
+<a href=https://arxiv.org/pdf/2110.06178.pdf><b>Paper link</b></a>
+</center>
+<br>
+<center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-the-general-concept-of-our-tadaconv-compared-to-standard-spatial-convolutions-in-videos">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="The general concept of our TAdaConv compared to standard spatial convolutions in videos." srcset="
+               /tadaconv-iclr2022.github.io/media/spat-tadaconv_hubfd6ad04c9fb3b8ddc4c86ec752611d5_104751_1328f72350c0a1939d467f2aaee66e32.png 400w,
+               /tadaconv-iclr2022.github.io/media/spat-tadaconv_hubfd6ad04c9fb3b8ddc4c86ec752611d5_104751_67701df69236ca233187eba3d2148d4e.png 760w,
+               /tadaconv-iclr2022.github.io/media/spat-tadaconv_hubfd6ad04c9fb3b8ddc4c86ec752611d5_104751_1200x1200_fit_lanczos_2.png 1200w"
+               src="/tadaconv-iclr2022.github.io/media/spat-tadaconv_hubfd6ad04c9fb3b8ddc4c86ec752611d5_104751_1328f72350c0a1939d467f2aaee66e32.png"
+               width="50%"
+               height="328"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption data-pre="Figure&nbsp;" data-post=":&nbsp;" class="numbered">
+      The general concept of our TAdaConv compared to standard spatial convolutions in videos.
+    </figcaption></figure></center>
+<center><font face = "Times New Roman" size=5><b>Abstract</b></font></center>
+<div width="80%"><font face = "Times New Roman" size=3>Spatial convolutions are widely used in numerous deep video models.
+It fundamentally assumes spatio-temporal invariance, i.e., using shared weights for every location in different frames.
+This work presents <b>Temporally-Adaptive Convolutions (TAdaConv)</b> for video understanding, which shows that adaptive weight calibration along the temporal dimension is an efficient way to facilitate modelling complex temporal dynamics in videos.
+Specifically, TAdaConv empowers the spatial convolutions with temporal modelling abilities by calibrating the convolution weights for each frame according to its local and global temporal context.
+Compared to previous temporal modelling operations, TAdaConv is more efficient as it operates over the convolution kernels instead of the features, whose dimension is an order of magnitude smaller than the spatial resolutions.
+Further, the kernel calibration brings an increased model capacity.
+We construct TAda2D networks by replacing the 2D convolutions in ResNet with TAdaConv, which leads to at least on par or better performance compared to state-of-the-art approaches on multiple video action recognition and localization benchmarks.
+We also demonstrate that as a readily plug-in operation with negligible computation overhead, TAdaConv can effectively improve many existing video models with a convincing margin.</font></div>
+<br> 
+<center><font face = "Times New Roman" size=5><b>TAdaConv</b></font></center>
+<center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-the-schematic-of-our-temporally-adaptive-convolutions-tadaconv">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="The schematic of our temporally adaptive convolutions (TAdaConv)." srcset="
+               /tadaconv-iclr2022.github.io/media/tadaconv_hu546da9a18009f615aa6000f5c6d2a3de_219879_f482cb7ba196a6f67e5d2e2f4be966ac.png 400w,
+               /tadaconv-iclr2022.github.io/media/tadaconv_hu546da9a18009f615aa6000f5c6d2a3de_219879_f1b075232f5b9af5f460509dfbfd80bc.png 760w,
+               /tadaconv-iclr2022.github.io/media/tadaconv_hu546da9a18009f615aa6000f5c6d2a3de_219879_1200x1200_fit_lanczos_2.png 1200w"
+               src="/tadaconv-iclr2022.github.io/media/tadaconv_hu546da9a18009f615aa6000f5c6d2a3de_219879_f482cb7ba196a6f67e5d2e2f4be966ac.png"
+               width="50%"
+               height="368"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption data-pre="Figure&nbsp;" data-post=":&nbsp;" class="numbered">
+      The schematic of our temporally adaptive convolutions (TAdaConv).
+    </figcaption></figure></center>
+<center><font face = "Times New Roman" size=5><b>Experiments</b></font></center>
+<center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /tadaconv-iclr2022.github.io/media/plugin-eval-ssv2k400_hu88f8d7e2d5dfc18346c5bc6646f44ad6_230786_820805ab79e46eabdb91c185a5ee969d.png 400w,
+               /tadaconv-iclr2022.github.io/media/plugin-eval-ssv2k400_hu88f8d7e2d5dfc18346c5bc6646f44ad6_230786_55ab6f76c9551a3547433c74c5c26db4.png 760w,
+               /tadaconv-iclr2022.github.io/media/plugin-eval-ssv2k400_hu88f8d7e2d5dfc18346c5bc6646f44ad6_230786_1200x1200_fit_lanczos_2.png 1200w"
+               src="/tadaconv-iclr2022.github.io/media/plugin-eval-ssv2k400_hu88f8d7e2d5dfc18346c5bc6646f44ad6_230786_820805ab79e46eabdb91c185a5ee969d.png"
+               width="50%"
+               height="296"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></center>
+<center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /tadaconv-iclr2022.github.io/media/sota-ssv2_huda5a0fa61a6b25f331031aeacf8b239c_395868_ebb4927f58914112204585eb371a6c3f.png 400w,
+               /tadaconv-iclr2022.github.io/media/sota-ssv2_huda5a0fa61a6b25f331031aeacf8b239c_395868_19a902c13b7717a3374fbda6bb4bb5c8.png 760w,
+               /tadaconv-iclr2022.github.io/media/sota-ssv2_huda5a0fa61a6b25f331031aeacf8b239c_395868_1200x1200_fit_lanczos_2.png 1200w"
+               src="/tadaconv-iclr2022.github.io/media/sota-ssv2_huda5a0fa61a6b25f331031aeacf8b239c_395868_ebb4927f58914112204585eb371a6c3f.png"
+               width="50%"
+               height="382"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></center>
+<center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /tadaconv-iclr2022.github.io/media/sota-k400_hu192ce03817ee69d235dc18492672bda7_545300_2e98c49e8b5c87abbd0c7a4508568670.png 400w,
+               /tadaconv-iclr2022.github.io/media/sota-k400_hu192ce03817ee69d235dc18492672bda7_545300_b0a76923632a984d5a00a29f809009fc.png 760w,
+               /tadaconv-iclr2022.github.io/media/sota-k400_hu192ce03817ee69d235dc18492672bda7_545300_1200x1200_fit_lanczos_2.png 1200w"
+               src="/tadaconv-iclr2022.github.io/media/sota-k400_hu192ce03817ee69d235dc18492672bda7_545300_2e98c49e8b5c87abbd0c7a4508568670.png"
+               width="50%"
+               height="504"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></center>
+<center><font face = "Times New Roman" size=5><b>Citation</b></font></center>
+<pre><code class="language-BibTeX">@inproceedings{huang2021tada,
+  title={TAda! Temporally-Adaptive Convolutions for Video Understanding},
+  author={Huang, Ziyuan and Zhang, Shiwei and Pan, Liang and Qing, Zhiwu and Tang, Mingqian and Liu, Ziwei and Ang Jr, Marcelo H},
+  booktitle={{ICLR}},
+  year={2022}
+}
+</code></pre>
+<center> <font size=2>Last updated: Jan 2022</font> </center>
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="map" class="home-section wg-blank  " style="padding: 0px 0px 0px 0px;" >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5vl8zltz7c5&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=17" async="async"></script>
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    @ 2022 TAdaConv
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/tadaconv-iclr2022.github.io/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/tadaconv-iclr2022.github.io/en/js/wowchemy.min.5c1573864bc970843224c53672b183f1.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,715 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Huang Ziyuan" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Ph.D. candidate" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="tadaconv-iclr2022.github.io/author/huang-ziyuan/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#6AA0A4" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/tadaconv-iclr2022.github.io/css/wowchemy.7de602e33f84217c520dbf10068cdbe6.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+    <link rel="alternate" href="tadaconv-iclr2022.github.io/author/huang-ziyuan/index.xml" type="application/rss+xml" title="TAdaConv-ICLR2022" />
+  
+
+  
+    <link rel="manifest" href="/tadaconv-iclr2022.github.io/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/tadaconv-iclr2022.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/tadaconv-iclr2022.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="tadaconv-iclr2022.github.io/author/huang-ziyuan/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="TAdaConv-ICLR2022" />
+  <meta property="og:url" content="tadaconv-iclr2022.github.io/author/huang-ziyuan/" />
+  <meta property="og:title" content="Huang Ziyuan | TAdaConv-ICLR2022" />
+  <meta property="og:description" content="Ph.D. candidate" /><meta property="og:image" content="/tadaconv-iclr2022.github.io/author/huang-ziyuan/avatar_huedfc9e12af62717313873e4096ef5b5a_2053467_270x270_fill_q75_lanczos_center.jpg" />
+    <meta property="twitter:image" content="/tadaconv-iclr2022.github.io/author/huang-ziyuan/avatar_huedfc9e12af62717313873e4096ef5b5a_2053467_270x270_fill_q75_lanczos_center.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <title>Huang Ziyuan | TAdaConv-ICLR2022</title>
+</head>
+
+
+<body id="top" data-spy="scroll"  data-target="#TableOfContents" class="page-wrapper   no-navbar" data-wc-page-id="1abcfa19fa3dde2389884c7169e24929" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/tadaconv-iclr2022.github.io/js/wowchemy-init.min.c2ae95842e5b33a787c7b8c567e989a4.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    
+    
+      
+      
+      
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle" src="/tadaconv-iclr2022.github.io/author/huang-ziyuan/avatar_huedfc9e12af62717313873e4096ef5b5a_2053467_270x270_fill_q75_lanczos_center.jpg" alt="Huang Ziyuan">
+      
+
+      <div class="portrait-title">
+        <h2>Huang Ziyuan</h2>
+        <h3>Ph.D. candidate</h3>
+
+        
+        <h3>
+          <a href="https://arc.nus.edu.sg" target="_blank" rel="noopener">
+          <span>ARC@National Univ. of Singapore</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <li>
+          <a href="mailto:ziyuan.huang@u.nus.edu"  aria-label="envelope">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=A9D-disAAAAJ" target="_blank" rel="noopener" aria-label="graduation-cap">
+            <i class="fas fa-graduation-cap big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/ziyuan-huang-731b78177" target="_blank" rel="noopener" aria-label="linkedin-in">
+            <i class="fab fa-linkedin-in big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    
+
+    <div class="article-style">
+      <p>I am a Ph.D. candidate in <a href="https://arc.nus.edu.sg" target="_blank" rel="noopener">Advanced Robotics Centre</a> at <a href="https://www.nus.edu.sg" target="_blank" rel="noopener">National University of Singapore</a>, supervised by Professor <a href="https://www.eng.nus.edu.sg/me/staff/ang-jr-marcelo-h/" target="_blank" rel="noopener">Marcelo Ang</a>.
+My currently research interests include comprehensive video understanding, video based perception, self-supervised learning, and multi-modal learning.</p>
+<p>Currently, I am a visiting student in the <a href="http://group.iiis.tsinghua.edu.cn/~marslab/#/" target="_blank" rel="noopener">Mars Lab</a> at Tsinghua University, supervised by Professor <a href="https://people.csail.mit.edu/hangzhao/" target="_blank" rel="noopener">Zhao Hang</a>, working at <a href="https://sqz.ac.cn" target="_blank" rel="noopener">Qi Zhi Institute</a>. The main research topic is video based environment perception. I am fortunate to have conducted research in the <a href="https://damo.alibaba.com/labs/vision" target="_blank" rel="noopener">Vision Lab</a> at <a href="%28https://damo.alibaba.com/?lang=en%29">DAMO Academy</a>, Alibaba Group, under Professor <a href="https://www.cse.msu.edu/~rongjin/" target="_blank" rel="noopener">Rong Jin</a>, and <a href="https://vision4robotics.github.io" target="_blank" rel="noopener">Vision4Robotics Group</a> at Tongji University under Professor <a href="https://vision4robotics.github.io/authors/changhong-fu/" target="_blank" rel="noopener">Changhong Fu</a>, where I spent wonderful times.</p>
+<!-- The main research topic is self-supervised video representation learning and comprehensive video understanding.  -->
+<!-- Before coming to NUS, I graduated with Excellent Graduate Honor from [Tongji University](https://en.tongji.edu.cn/index.htm), where I worked in the [Vision4Robotics](https://vision4robotics.github.io) Group as a student researcher under the supervision of Prof. [Changhong Fu](https://vision4robotics.github.io/authors/changhong-fu/), with focus on efficient visual object tracking for unmanned aerial vehicles.  -->
+<p><strong>News</strong>:<br>
+<font size=2>
+-01/2022: <span style=color:#E02401>NEW!!</span> TAdaConv is accepted to <span style=color:#21618C><strong>ICLR 2022</strong></span>.<br>
+-10/2021: <span style=color:#E02401>NEW!!</span> <span style=color:#21618C><strong>Code and models</strong></span> for TAdaConv (ICLR 2022), the competitions and MoSI (CVPR 2021) are released <a href="https://github.com/alibaba-mmai-research/pytorch-video-understanding" target="_blank" rel="noopener">here</a>!.<br>
+-08/2021: One paper accepted to <span style=color:#21618C><strong>ICCV 2021</strong></span>.<br>
+-06/2021: Just passed the <span style=color:#21618C><strong>Ph.D. Qualifying Exam</strong></span>!!<br>
+-06/2021: Our team won <span style=color:#21618C><strong>five champions and a second-place</strong></span> in CVPR 2021 Workshops (<a href="http://activity-net.org/challenges/2021/tasks/anet_localization.html" target="_blank" rel="noopener">ActivityNet</a>/<a href="http://hacs.csail.mit.edu/challenge.html" target="_blank" rel="noopener">HACS</a>/<a href="http://activity-net.org/challenges/2021/tasks/guest_ava.html" target="_blank" rel="noopener">AVA-Kinetics</a>/<a href="https://epic-kitchens.github.io" target="_blank" rel="noopener">EPIC-KITCHENS</a>).
+-05/2021: One paper accepted to <span style=color:#21618C><strong>RA-L</strong></span>.<br>
+-03/2021: One paper accepted to <span style=color:#21618C><strong>CVPR 2021</strong></span>.
+</font></p>
+<!-- 吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
+<!-- -10/2021: <span style=color:#E02401>NEW!!</span> Released our latest work <span style=color:#21618C>**TAda!**</span> See [preprint](https://arxiv.org/pdf/2110.06178).\ -->
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. -->
+
+    </div>
+
+    <div class="row">
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+  </div>
+</section>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    @ 2022 TAdaConv
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/tadaconv-iclr2022.github.io/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/tadaconv-iclr2022.github.io/en/js/wowchemy.min.5c1573864bc970843224c53672b183f1.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>
