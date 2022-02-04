@@ -598,6 +598,44 @@ We also demonstrate that as a readily plug-in operation with negligible computat
   </div><figcaption data-pre="Figure&nbsp;" data-post=":&nbsp;" class="numbered">
       The schematic of our temporally adaptive convolutions (TAdaConv).
     </figcaption></figure></center>
+<center><font face = "Times New Roman" size=5><b>Implementation</b></font></center>
+<pre><code class="language-python"># In https://github.com/alibaba/EssentialMC2/papers/ICLR2022-TAdaConv
+# 1. copy tada_branch.py somewhere in your project 
+#    and import TAdaConv2d, RouteFuncMLP
+from tada_branch import TAdaConv2d, RouteFuncMLP
+
+class Model(nn.Module):
+  def __init__(self):
+
+    ...
+
+    # 2. define tadaconv and the route func in your model
+    self.conv_rf = RouteFuncMLP(
+                c_in=64,            # number of input filters
+                ratio=4,            # reduction ratio for MLP
+                kernels=[3,3],      # list of temporal kernel sizes
+    )
+    self.conv = TAdaConv2d(
+                in_channels     = 64,
+                out_channels    = 64,
+                kernel_size     = [1, 3, 3], # usually the temporal kernel size is fixed to be 1
+                stride          = [1, 1, 1], # usually the temporal stride is fixed to be 1
+                padding         = [0, 1, 1], # usually the temporal padding is fixed to be 0
+                bias            = False,
+                cal_dim         = &quot;cin&quot;
+            )
+
+     ...
+
+  def self.forward(x):
+
+    ...
+    
+    # 3. replace 'x = self.conv(x)' with the following line
+    x = self.conv(x, self.conv_rf(x))
+
+    ...
+</code></pre>
 <center><font face = "Times New Roman" size=5><b>Experiments</b></font></center>
 <center>
 
@@ -1019,7 +1057,7 @@ We also demonstrate that as a readily plug-in operation with negligible computat
 
 
   <div class="col-12">
-    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/5.js?i=5ty8o4nf04o&amp;m=7&amp;c=ff0000&amp;cr1=ffffff" async="async"></script>
+    <!-- <script type="text/javascript" src="//rf.revolvermaps.com/0/0/5.js?i=5ty8o4nf04o&amp;m=7&amp;c=ff0000&amp;cr1=ffffff" async="async"></script> -->
   </div>
 
 
