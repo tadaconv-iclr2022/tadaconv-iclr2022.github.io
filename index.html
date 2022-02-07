@@ -600,9 +600,9 @@ We also demonstrate that as a readily plug-in operation with negligible computat
     </figcaption></figure></center>
 <center><font face = "Times New Roman" size=5><b>Implementation</b></font></center>
 <pre><code class="language-python"># In https://github.com/alibaba/EssentialMC2/papers/ICLR2022-TAdaConv
-# 1. copy tada_branch.py somewhere in your project 
+# 1. copy models/module_zoo/ops/tadaconv.py somewhere in your project 
 #    and import TAdaConv2d, RouteFuncMLP
-from tada_branch import TAdaConv2d, RouteFuncMLP
+from tadaconv import TAdaConv2d, RouteFuncMLP
 
 class Model(nn.Module):
   def __init__(self):
