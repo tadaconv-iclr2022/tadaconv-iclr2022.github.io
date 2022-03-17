@@ -561,14 +561,7 @@ Accepted to <b>ICLR 2022</b>
       The general concept of our TAdaConv compared to standard spatial convolutions in videos.
     </figcaption></figure></center>
 <center><font face = "Times New Roman" size=5><b>Abstract</b></font></center>
-<div width="80%"><font face = "Times New Roman" size=3>Spatial convolutions are widely used in numerous deep video models.
-It fundamentally assumes spatio-temporal invariance, i.e., using shared weights for every location in different frames.
-This work presents <b>Temporally-Adaptive Convolutions (TAdaConv)</b> for video understanding, which shows that adaptive weight calibration along the temporal dimension is an efficient way to facilitate modelling complex temporal dynamics in videos.
-Specifically, TAdaConv empowers the spatial convolutions with temporal modelling abilities by calibrating the convolution weights for each frame according to its local and global temporal context.
-Compared to previous temporal modelling operations, TAdaConv is more efficient as it operates over the convolution kernels instead of the features, whose dimension is an order of magnitude smaller than the spatial resolutions.
-Further, the kernel calibration brings an increased model capacity.
-We construct TAda2D networks by replacing the 2D convolutions in ResNet with TAdaConv, which leads to at least on par or better performance compared to state-of-the-art approaches on multiple video action recognition and localization benchmarks.
-We also demonstrate that as a readily plug-in operation with negligible computation overhead, TAdaConv can effectively improve many existing video models with a convincing margin.</font></div>
+<div width="80%"><font face = "Times New Roman" size=3>Spatial convolutions are widely used in numerous deep video models. It fundamentally assumes spatio-temporal invariance, i.e., using shared weights for every location in different frames. This work presents <b>Temporally-Adaptive Convolutions (TAdaConv)</b> for video understanding, which shows that adaptive weight calibration along the temporal dimension is an efficient way to facilitate modelling complex temporal dynamics in videos. Specifically, TAdaConv empowers the spatial convolutions with temporal modelling abilities by calibrating the convolution weights for each frame according to its local and global temporal context. Compared to previous temporal modelling operations, TAdaConv is more efficient as it operates over the convolution kernels instead of the features, whose dimension is an order of magnitude smaller than the spatial resolutions. Further, the kernel calibration brings an increased model capacity. We construct TAda2D and TAdaConvNeXt networks by replacing the 2D convolutions in ResNet and ConvNeXt with TAdaConv, which leads to at least on par or better performance compared to state-of-the-art approaches on multiple video action recognition and localization benchmarks. We also demonstrate that as a readily plug-in operation with negligible computation overhead, TAdaConv can effectively improve many existing video models with a convincing margin.</font></div>
 <br> 
 <center><font face = "Times New Roman" size=5><b>TAdaConv</b></font></center>
 <center>
@@ -679,12 +672,12 @@ class Model(nn.Module):
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="" srcset="
-               /media/sota-ssv2_huda5a0fa61a6b25f331031aeacf8b239c_395868_ebb4927f58914112204585eb371a6c3f.png 400w,
-               /media/sota-ssv2_huda5a0fa61a6b25f331031aeacf8b239c_395868_19a902c13b7717a3374fbda6bb4bb5c8.png 760w,
-               /media/sota-ssv2_huda5a0fa61a6b25f331031aeacf8b239c_395868_1200x1200_fit_lanczos_2.png 1200w"
-               src="/media/sota-ssv2_huda5a0fa61a6b25f331031aeacf8b239c_395868_ebb4927f58914112204585eb371a6c3f.png"
+               /media/sota-ssv2-v2_hu049a0e3a9c65d05bf3b62ac1616c98b2_274468_b9d6515a0465c4759f413927ba17cc36.png 400w,
+               /media/sota-ssv2-v2_hu049a0e3a9c65d05bf3b62ac1616c98b2_274468_9358bb6c4baa9b789fd8fdf368aa2173.png 760w,
+               /media/sota-ssv2-v2_hu049a0e3a9c65d05bf3b62ac1616c98b2_274468_1200x1200_fit_lanczos_2.png 1200w"
+               src="/media/sota-ssv2-v2_hu049a0e3a9c65d05bf3b62ac1616c98b2_274468_b9d6515a0465c4759f413927ba17cc36.png"
                width="50%"
-               height="382"
+               height="403"
                loading="lazy" data-zoomable /></div>
   </div></figure></center>
 <center>
@@ -704,12 +697,12 @@ class Model(nn.Module):
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="" srcset="
-               /media/sota-k400_hu192ce03817ee69d235dc18492672bda7_545300_2e98c49e8b5c87abbd0c7a4508568670.png 400w,
-               /media/sota-k400_hu192ce03817ee69d235dc18492672bda7_545300_b0a76923632a984d5a00a29f809009fc.png 760w,
-               /media/sota-k400_hu192ce03817ee69d235dc18492672bda7_545300_1200x1200_fit_lanczos_2.png 1200w"
-               src="/media/sota-k400_hu192ce03817ee69d235dc18492672bda7_545300_2e98c49e8b5c87abbd0c7a4508568670.png"
+               /media/sota-k400-v2_hu83f6a3c2c7dc49d1a476f7f6fcf07961_248209_4226ef44388e724f96135022594383c0.png 400w,
+               /media/sota-k400-v2_hu83f6a3c2c7dc49d1a476f7f6fcf07961_248209_95a64b644e8a0100e070caaa186bcdcd.png 760w,
+               /media/sota-k400-v2_hu83f6a3c2c7dc49d1a476f7f6fcf07961_248209_1200x1200_fit_lanczos_2.png 1200w"
+               src="/media/sota-k400-v2_hu83f6a3c2c7dc49d1a476f7f6fcf07961_248209_4226ef44388e724f96135022594383c0.png"
                width="50%"
-               height="504"
+               height="441"
                loading="lazy" data-zoomable /></div>
   </div></figure></center>
 <!-- <center><font face = "Times New Roman" size=5><b>Citation</b></font></center>
